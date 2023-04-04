@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{                         /*Parent Container Of All*/
   display: flex;
   flex-direction: column;
+}
+ .Header{                   /*   Child Container Of App */
+  height: 10vh;
+  text-align:center ;
+  padding-top: 15px;
+  border: 5px solid burlywood;
+  
+}
+
+
+.MAIN{                            /*   Child Container Of App */
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  border: 5px solid gray;
+  }
+
+  .Footer{                             /*   Child Container Of App */
+    height: 10vh;
+    text-align: center;
+    
+    border: 5px solid black;
+  }
+
+.Navbar{                          /*   Child Container Of MAIN */
+  
+  flex-basis: 200px;
+ border: 5px solid black;
+ border-radius: 10px;
+ }
+
+.Main{                                    /*   Child Container Of MAIN*/
+  display: flex;
+  
+  flex-grow: 1;
+  
+  border: 5px solid black;
+  border-radius: 10px;
+  flex-direction: column;
+  }
+
+.Content{                          /*   Child Container Of Main */
+display: flex;
+flex-grow: 1;
+flex-wrap: wrap;
+background-color: antiquewhite;
+}
+
+
+/*productcard{
+  width: 1000px;
+  height: 50px;
+  border: 5px solid black;
+
+}
+ Route{
+  display: flex;
+  flex-direction: row;
+} */
+.LoginForm{
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  justify-self:center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(5, 20, 20);
+}
+.login-form{
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.AddProduct{
+  display: flex;
+  background-color: rgba(4, 45, 94, 0.826);
+  width: auto;
+  margin-left: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* table{
+  display: flex;
+  flex-wrap: wrap;
 }
+tbody{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+/* tr{
+  display: flex;
+  flex-wrap: wrap;
+}
+td{
+  display: flex;
+  flex-wrap: wrap;
+} */

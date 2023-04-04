@@ -1,0 +1,85 @@
+
+
+.pagediv{
+    width: 100%;
+}
+.page1table{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    background-color: rgb(192, 96, 37);
+    
+    
+}
+
+thead{
+    display: flex;
+    
+    
+}
+.theadtr{
+    
+    display: flex;
+    flex-grow: 1;
+}
+.th1{
+    width: 33%;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.th2{
+    width: 33%;
+    flex-grow: 1;
+    text-align: center;
+}
+.th3{
+    width: 33%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.page1tbody{
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    
+
+    background-color:  rgb(5, 20, 20);
+    align-content: space-between;
+    
+}
+tr{
+    display: flex;
+    border: 5px solid;
+   border-radius: 5px;
+}
+
+
+.page1{
+    border: 5px solid;
+    border-radius: 5px;
+   width: 33%;
+    background-color: rgb(202, 136, 43);
+    text-align: center;
+}
+.page2{
+    border: 5px solid;
+    border-radius: 5px;
+    width: 33%;
+    background-color: rgb(110, 212, 47);
+    text-align: center;
+}
+.page3{
+    border: 5px solid;
+    border-radius: 5px;
+    width: 33%;
+   
+    background-color: rgb(47, 165, 212);
+    text-align: center;
+}
