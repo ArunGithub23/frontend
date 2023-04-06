@@ -1,0 +1,14 @@
+.addprdttr{
+    display: flex;
+    margin-top: 5%;
+    
+
+}
+td{
+flex-grow: 1;
+width: 50%;
+}
+.addbtn{
+    margin-left: 3%;
+    margin-bottom: 1%;
+}

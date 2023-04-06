@@ -8,7 +8,7 @@
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
-    height: 200px;
+    
     background-color: rgb(192, 96, 37);
     
     
@@ -72,7 +72,7 @@ tr{
     border: 5px solid;
     border-radius: 5px;
     width: 33%;
-    background-color: rgb(110, 212, 47);
+    background-color: rgb(150, 138, 176);
     text-align: center;
 }
 .page3{
@@ -83,3 +83,21 @@ tr{
     background-color: rgb(47, 165, 212);
     text-align: center;
 }
+
+.page4{
+    border: 5px solid;
+    border-radius: 5px;
+    width: 33%;
+   
+    background-color: rgb(232, 31, 20);
+    text-align: center;
+}
+.page5{
+    border: 5px solid;
+    border-radius: 5px;
+    width: 33%;
+   
+    background-color: rgb(15, 229, 79);
+    text-align: center;
+}
+
